@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.egg-info/
+*.py[cod]
+.pytest_cache/
+.pytest-tmp/
+.coverage
+htmlcov/
+.env
+.DS_Store
+
+data/uploads/*
+data/chroma/*
+data/chroma-clean/*
+data/postgres/*
+!data/uploads/.gitkeep
+!data/chroma/.gitkeep
+!data/chroma-clean/.gitkeep
+
+# Local reference binaries and generated runtime artifacts
+docs/*.docx
+*.tmp
+
+*.db
+*.sqlite
+*.sqlite3
+*.log
